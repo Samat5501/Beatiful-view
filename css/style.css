@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header .carousel-inner .item{
+    height: 100vh;
+}
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand{
+   color: #fff;
+   font-size: 40px;
+   padding: 40px 15px;
+   font-weight: 900;
+}
+.nav.navbar-nav.navbar-right{
+    margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a{
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 36px;
+  border: 1px solid transparent;
+    padding: 0px 16px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    border-color: #ffc222;
+  transition: ease 0.25s;
+}
+.banner{
+    /* -webkit-background-size: cover; */
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* height: 100vh; */
+}
+.carousel-caption{
+    padding-bottom: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-caption h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h2 span{
+    color: #edbb00;
+}
+.carousel-caption a{
+    background-color: #edbb00;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-indicators .active{
+    background-color: #edbb00;
+}
+
+@media only screen and (min-width:768px) and (max-width : 991px){
+
+}
+@media only screen and (max-width : 767px){
+  .navbar-inverse .navbar-brand{
+      font-size: 30px;
+      padding: 20px 15px;
+  }
+  .navbar-collapse{
+      background-color: rgb(0,0,0,0.5);
+  }
+  .carousel-caption{
+      padding-bottom:190px ;
+  }
+  .carousel-caption h2{
+      font-size: 25px;
+  }
+  .carousel-caption h3{
+      font-size: 18px;
+  }
+  .carousel-caption a{
+      padding: 10px 25px;
+  }
+}
